@@ -1,0 +1,7 @@
+gcc -lm -std=c99 route_finding_main.c buildgraph.c inform.c readfile.c shortpath.c -g -o rfm
+./rfm
+gnuplot
+load 'mapwithroad.plt'
+load 'map.plt'
+exit
+quit
